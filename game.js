@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var html = '<h1 class="pt-2 text-center">Terminé</h1><p class="text-center">Score = '+ score +'%</p><hr>';
 
         if(wrongs.length > 0) {
-            html += '<strong>Vous avez manqué ces pays</strong> <br>';
+            html += '<strong>Vous avez manqué ces pays</strong> <br><br>';
 
             html += '<ul>';
             for (var i = 0; i < wrongs.length; i++) {
